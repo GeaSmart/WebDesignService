@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;    
+}
+.hamburguer{
+    top:30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-navegacion{
+    top:0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vh;
+    transform: translateX(110%);
+    transition: transform 0.3s ease-in-out;
+}
+.menu-navegacion a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to top, #f1c9be73 0%, #eec5ee91 100%),url(../img/woman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 90%;
+    /* padding: 0; */
+}
+.titulo{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.slogan{
+    font-size: 30px;
+}
