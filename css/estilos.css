@@ -9,11 +9,13 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/*HEADER*/
+
+/* 1 HEADER */
 .contenedor{
     width: 90%;
     max-width: 1200px;
     margin: auto;    
+    padding: 60px 0;
 }
 .hamburguer{
     top:30px;
@@ -68,3 +70,5 @@ body{
 .slogan{
     font-size: 30px;
 }
+
+/* 2 SERVICIO */
