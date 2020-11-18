@@ -167,3 +167,23 @@ body{
 .show{
     transform: translate(0);
 }
+
+/* EXPERTOS */
+.contenedor-expertos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.experto{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.n-expert{
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* FOOTER */
